@@ -1,0 +1,358 @@
+@charset "utp-8";
+
+@import url('https://fonts.googleapis.com/css?family=Jua:400');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+body{
+    font-size: 20px;
+    line-height: 25px;
+    color: #333;
+}
+
+img{
+    vertical-align: top;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+    /* 검색창 x표시 삭제 */
+	display:none;
+}
+
+.wrap{
+    width: 100%;
+    min-width: 1240px;
+}
+.header{
+    height: 90px;
+    margin-bottom: 20px;
+}
+.headIn{
+    background-color: #fff;
+    width: 1200px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+.logo{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+}
+.logo img{
+    width: 40px;
+}
+.logo a{
+    font-family: 'jua', serif;
+    color: #FF7E36;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.nav ul{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 180px;
+    width: 250px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.nav a:hover{
+    color: #777;
+}
+
+.nav a:active{
+    color: #FF7E36;
+}
+
+.member ul{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 13px;
+}     
+.member li:hover{
+    font-weight: bold;
+}
+.searchChat{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+.search{
+    width: 264px;
+    height: inherit;
+    padding: 12px;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+}
+.chat{
+    width: 100px;
+    height: 40px;
+    border: 0.8px solid #bbb;
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #212124;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.popularSearch{
+   text-align: center;
+   width: 1000px;
+   margin: 10px auto 20px auto;
+   font-size: 15px;
+   background-color: #faf9f9;
+   border-radius: 20px;
+   padding: 10px;
+}
+.popularSearch p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.popularList{
+    display: flex;
+    justify-content: space-around;
+}
+.popularList a:hover{
+    text-decoration: underline;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-pagination-bullet {
+    background-color: #777 !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    color: #777;
+}
+.popularItem{
+    margin-bottom: 56px;
+    background-color: rgb(250, 250, 252);
+    padding: 60px 0;
+}
+.popularItem h1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.pItemList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0 auto;
+}
+.pItemList li{
+    width: 240px;
+    margin-bottom: 40px;
+}
+
+.pItemImg{
+    width: 200x;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+.pItemImg img{
+    width: 100%;
+    height: 100%;
+}
+.pItemName{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.pItemPrice{
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.pItemAddress{
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+.pItemCountUp{
+    color: rgb(134,142,150);
+    font-size: 13px;
+    line-height: 16px;
+}
+.seeMore{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.qrCode{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.footerIn{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 100px;
+    position: relative;
+}
+.fLine{
+    height: 1.5px;
+    background-color: #f3f2f2;
+    margin: 0 0 30px 0;
+}
+
+.footMenu1{
+    display: flex;
+    margin: 50px 0;
+    position: relative;
+}
+.footMenu1 ul{
+    margin-right: 30px;
+    font-size: 15px;
+}
+.footMenu1 li{
+    margin-bottom: 30px;
+}
+
+.footMenu1 a:hover{
+    text-decoration: underline;
+}
+
+.appDownload{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    color: #222;
+    font-size: 16px;
+}
+.appDownload p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.appDownload button{
+    border: none;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+.appDownload .apple{
+    margin-right: 8px;
+}
+
+.appDownload img{
+    width: 20px;
+
+}
+
+.fMenu2 ul{
+    display: flex;
+    margin-top: 20px;
+    width: 700px;
+}
+
+.fMenu2 li{
+    margin-right: 20px;
+}
+
+.fMenu2 a{
+    color: #666;
+    font-size: 13px;
+}
+
+.fMenu2 a:hover{
+    text-decoration: underline;
+}
+
+.snsNation{
+    /* background-color: lavender; */
+    display: flex;
+    width: 250px;
+    position: absolute;
+    top: 330px;
+    right: 10px;
+    vertical-align: bottom;
+}
+
+.snsNation img{
+    width: 30px;
+    vertical-align : middle;
+}
+.nation img{
+    width: 27px;
+    height: 20px;
+    margin-top: 8px;
+}
+.nation label{
+    /* background-color: violet; */
+    display: flex;
+    margin-top: 15px;
+}
+
+#label-select-nation{
+    margin-top: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
