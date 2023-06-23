@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="./css/deliveryFormStyle.css">
+</head>
+<body>
+    <form class="deliveryForm">
+        <div >
+            <div class="title">배송지 입력</div>
+
+            <p>
+                <label for="">수령자</label> <input class="textBox" type="text" >
+            </p>
+            
+            <p>
+                <label for="">전화번호</label> <input class="textBox" type="text" placeholder="010-0000-0000">
+            </p>
+            
+            <p>
+                <label for="">주소</label> <input class="textBox" type="text">
+            </p>
+
+            <p>
+                <label for="pay">결제수단</label>
+                <input type="radio" name="pay"> 카드결제
+                <input type="radio" name="pay"> 카카오페이
+                <input type="radio" name="pay"> 계좌이체
+            </p>
+            
+            <p>
+                <label for="">총 결제 금액 : </label>
+            </p>
+
+            <button class="registerBtn">주문하기</button>
+        </div><!--.register-->
+</form>
+</body>
+</html>

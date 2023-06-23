@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'NanumSquareNeo-Variable',serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333;
+}
+
+img{
+    vertical-align: top;
+}
+
+input{
+    outline: none;
+}
+
+.wrap{
+    width: 100%;
+    min-width: 1280px;
+}
+
+.container{
+    width: 1240px;
+    margin: 100px auto;
+}
+
+p,
+span {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 80%;
+  height: 80px;
+  margin: auto;
+}
+
+.cart {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+.cart ul {
+  background-color: whitesmoke;
+  padding: 30px;
+  margin-bottom: 50px;
+  border: whitesmoke solid 1px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.cart ul :first-child {
+  color: rgb(141, 175, 141);
+}
+
+table {
+  border-top: solid 1.5px black;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+}
+
+thead {
+  text-align: center;
+  font-weight: bold;
+}
+
+tbody {
+  font-size: 14px;
+}
+
+td {
+  padding: 15px 0px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.cartListDtl :nth-child(3) {
+  vertical-align: top;
+}
+
+.cartListDtl :nth-child(3) a {
+  font-size: 12px;
+}
+
+.cartListDtl :nth-child(3) p {
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+.cart__list__smartstore {
+  font-size: 12px;
+  color: gray;
+}
+
+.cartListOp {
+  vertical-align: top;
+  padding: 20px;
+}
+
+.cartListOp p {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.cartListOp p::after {
+  content: "";
+  width: 90%;
+  height: 1px;
+  background-color: lightgrey;
+  left: 0px;
+  top: 25px;
+  position: absolute;
+}
+
+.cartListOpBtn {
+  background-color: white;
+  font-size: 12px;
+  border: lightgrey solid 1px;
+  padding: 7px;
+}
+
+.cartListDtl :nth-child(4),
+.cartListDtl :nth-child(5),
+.cartListDtl :nth-child(6) {
+  border-left: 2px solid whitesmoke;
+}
+
+.cartListDtl :nth-child(5),
+.cartListDtl :nth-child(6) {
+  text-align: center;
+}
+
+.cartListDtl :nth-child(5) button {
+  background-color: rgb(80, 108, 80);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.delivery{
+    text-align: end;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.cartMainBtn {
+  width: 420px;
+  height: 200px;
+  padding-top: 40px;
+  display: block;
+  margin: auto;
+}
+
+.cartBigBtn {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.cartBigBtn.left {
+  background-color: white;
+  border: 1px lightgray solid;
+}
+
+.cartBigBtn.right {
+  background-color: rgb(80, 108, 80);
+  color: white;
+  border: none;
+}
