@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing:border-box;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'NanumSquareNeo-Variable',serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: #333;
+}
+
+img{
+    vertical-align: top;
+}
+
+input{
+    outline: none;
+}
+
+.productForm{
+    width: 800px;
+    margin: 100px auto 150px;
+    line-height: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+tr input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+tr select{
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.tdName{
+    width: 170px;
+}
+
+.required{
+    font-size: 14px;
+    text-align: end;
+    font-weight: 700;
+    color: red;
+}
