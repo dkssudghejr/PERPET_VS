@@ -35,34 +35,68 @@ input{
 }
 
 .productForm{
-    width: 800px;
+    width: 700px;
     margin: 100px auto 150px;
     line-height: 30px;
 }
 
 h2{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-tr input{
+li{
+    border-bottom: 1px solid #777;
+    padding: 10px 0;
+    display: flex;
+}
+
+li:last-child{
+    border-bottom: none;
+    justify-content: end;
+}
+
+li input{
     width: 250px;
     height: 30px;
-    margin-bottom: 10px;
     padding: 0 10px;
 }
 
-tr select{
+li select{
     height: 25px;
-    margin-bottom: 10px;
 }
 
-.tdName{
+li textarea{
+    padding: 10px;
+}
+
+.listN{
     width: 170px;
 }
+
+.filebox{
+    display: flex;
+}
+
 
 .required{
     font-size: 14px;
     text-align: end;
     font-weight: 700;
     color: red;
+    line-height: 40px;
+}
+
+.regBtn{
+    background-color: rgb(122, 161, 122);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.regBtn:hover{
+    font-weight: 700;
 }
