@@ -51,13 +51,14 @@ input{
 }
 
 .topImg img{
-    width: 500px;
-    height: 490px;
+    width: 600px;
+    height: 550px;
 }
 
 .productInfo{
-    width: 600px;
-    margin-top: 40px;
+    width: 500px;
+    margin-top: 100px;
+    margin-right: 50px;
 }
 
 .productInfo h2, h3{
@@ -71,7 +72,7 @@ input{
 }
 
 .num{
-    margin-left: 380px;
+    margin-left: 300px;
     margin-right: 20px;
 }
 
@@ -108,13 +109,7 @@ input{
     /* border-radius: 10px; */
 }
 
-.addCart{
-    width: 200px;
-    margin-right: 10px;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #bbb;
-}
+
 
 .likeyBtn{
     border: none;
@@ -132,12 +127,36 @@ input{
     font-weight: bold;
 }
 
+.addCart{
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+}
+
 .buyBtn{
     width: 180px;
     padding: 10px;
     background-color: rgb(41, 41, 41);
     color: rgb(237, 237, 237);
 }
+
+.approvalN{
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #bbb;
+}
+
+.approvalY{
+    width: 180px;
+    padding: 10px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(237, 237, 237);
+}
+
 
 .productDetail{
     padding: 0 40px;

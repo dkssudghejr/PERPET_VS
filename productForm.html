@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/productFormStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
     <form action="" class="productForm">
@@ -14,7 +15,7 @@
             </li>
             <li>
                 <p class="listN">상품 카테고리</p>
-                    <select name="cate" id="cate">
+                    <select onchange="cateBoxChange(this.value)">
                         <option value="0">내/외부 구충제</option>
                         <option value="10">기관지</option>
                         <option value="20">알러지/피부</option>
@@ -27,6 +28,7 @@
                         <option value="90">소독약</option>
                         <option value="100">보조제</option>
                     </select>
+                    <input type="text" name="cate" id="cate">
             </li>
             <li>
                 <p class="listN">온라인 구매 가능 여부</p>
@@ -62,8 +64,8 @@
             <li>
                 <p class="listN">상품 이미지</p>
                 <div class="filebox" >
-                	<input type="file" class="imgInput" name="productImgFile">
-                	<label class="custom-file-label"></label>
+                	<input type="file" name="productImgFile" id="file">
+                	<label for="file" class="inputFileButton">이미지</label>
                 </div>
             </li>
             <li>
@@ -72,7 +74,6 @@
                     <input type="hidden" name="productImgIds">
                     <input type="file" id="file" name="productImgFile">
                     <label for="file"></label> 
-                    
                 </div>
             </li>
             <li>
